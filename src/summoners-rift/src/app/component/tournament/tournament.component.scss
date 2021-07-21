@@ -1,6 +1,8 @@
 .container {
   display: flex;
   height: 100%;
+
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -39,7 +41,7 @@ input {
   }
 }
 
-button {
+.save-team {
   padding: 5px;
   font-size: 1.2rem;
   border-radius: 0 5px 5px 0;
@@ -50,5 +52,22 @@ button {
 
   &:hover {
     background: rgba(113, 121, 126, 1);
+  }
+}
+
+.start-tournament {
+  padding: 15px;
+  margin-top: 25px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  background: #d3d3d3;
+
+  &:hover {
+    background-color: rgba(113, 121, 126, 1);
   }
 }
