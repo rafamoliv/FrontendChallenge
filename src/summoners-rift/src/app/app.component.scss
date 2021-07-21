@@ -4,15 +4,16 @@
   background: #000;
 }
 
-.top-side {
+.header {
+  position: sticky;
+  top: 0;
   height: 13vh;
+  display: flex;
+  justify-content: center;
 }
 
 .centralize {
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%);
-  height: 15%;
+  height: 100%;
 }
 
 .bg {
@@ -62,4 +63,11 @@
       transition: 350ms ease-in-out;
     }
   }
+}
+
+.character {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 25%;
 }
