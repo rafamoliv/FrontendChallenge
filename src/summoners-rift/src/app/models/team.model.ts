@@ -1,6 +1,6 @@
 export class Team {
     constructor(
-      //changed elements
+      //variable elements
       public id: Number,
       public name: String,
       public logo: String,
