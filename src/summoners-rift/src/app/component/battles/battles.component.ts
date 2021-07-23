@@ -79,6 +79,5 @@ export class BattlesComponent implements OnInit {
     team.finalWinner = true;
     this.winner.push(team)
     this.finalWinnerTournament = true;
-    console.log(team)
   }
 }
