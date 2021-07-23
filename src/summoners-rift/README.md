@@ -2,15 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 ## How to run
 
-- Open the project
-- cd src/summoners-rift and execute **npm install**
-- cd src and execute **ng serve**
+- Git clone: https://github.com/rafamoliv/FrontendChallenge.git
+- cd src/summoners-rift and run **`npm install`**. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- cd src and run **`ng serve`**
+
+## Screenshots
+
+<div align="center">
+  <img src="src/assets/images/screenshots/home.png" width="300"/> 
+  <img src="src/assets/images/screenshots/teams.png" width="300"/> 
+  <img src="src/assets/images/screenshots/battles.png" width="300"/>
+</div>
 
 ## Build
 
